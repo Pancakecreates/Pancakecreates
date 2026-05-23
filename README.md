@@ -11,13 +11,6 @@ I am the owner and lead of:
 * **Backend:** Node.js (Primary Stack)
 * **Languages:** JavaScript, TypeScript
 
-### 🐍 Contribution Activity
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pancakecreates/Pancakecreates/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pancakecreates/Pancakecreates/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Pancakecreates/Pancakecreates/output/github-snake.svg" />
-</picture>
-
 ---
 
 ### 📈 GitHub Stats
