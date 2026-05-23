@@ -14,10 +14,7 @@ I am the owner and lead of:
 ---
 
 ### 📈 GitHub Stats
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=Pancakecreates&show_icons=true&theme=tokyonight" alt="Pancakecreates stats" height="180px" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pancakecreates&layout=compact&theme=tokyonight" alt="Top Langs" height="180px" />
-</p>
+![DStats](https://metrics.lecoq.io/Pancakecreates?template=classic&base=header%2C%20repositories%2C%20metadata&config.timezone=Europe%2FMoscow)
 
 ### 📫 Connect with me
 * **Discord:** `pancakeboyman_8`
