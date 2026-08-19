@@ -1,23 +1,23 @@
-<svg width="620" height="218" viewBox="0 0 620 218" xmlns="http://www.w3.org/2000/svg">
+<svg width="620" height="214" viewBox="0 0 620 214" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .line { animation: show 0.12s forwards; }
+    .line { opacity: 0; animation: show 0.14s forwards; }
     .cursor { animation: blink 1s step-end infinite; }
-    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes show { to { opacity: 1; } }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
 
-<rect width="620" height="218" rx="22" fill="#050505"/>
-<rect x="1" y="1" width="618" height="216" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
+<rect width="620" height="214" rx="22" fill="#050505"/>
+<rect x="1" y="1" width="618" height="212" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
 <rect width="620" height="42" rx="22" fill="#101010"/>
 <circle cx="24" cy="21" r="6" fill="#555"/>
 <circle cx="46" cy="21" r="6" fill="#777"/>
 <circle cx="68" cy="21" r="6" fill="#999"/>
 <text x="92" y="27" fill="#9A9A9A" font-size="14">pancake@github: ~/contacts</text>
-<text x="34" y="74" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:0.00s" class="line">$ cat contacts</text>
-<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.14s" class="line">discord: pancakeboyman_8</text>
-<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.28s" class="line">bio:     https://pancakeboyman.ru</text>
-<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.42s" class="line">github:  https://github.com/Pancakecreates</text>
-<text x="34" y="162" fill="#FFFFFF" font-size="15" style="animation-delay:0.56s" class="line">$ <tspan class="cursor">█</tspan></text>
+<text x="34" y="74" fill="#FFFFFF" font-size="15" font-weight="700"><tspan class="line" style="animation-delay:0.00s">$</tspan><tspan class="line" style="animation-delay:0.04s"> </tspan><tspan class="line" style="animation-delay:0.07s">c</tspan><tspan class="line" style="animation-delay:0.11s">a</tspan><tspan class="line" style="animation-delay:0.14s">t</tspan><tspan class="line" style="animation-delay:0.18s"> </tspan><tspan class="line" style="animation-delay:0.21s">c</tspan><tspan class="line" style="animation-delay:0.25s">o</tspan><tspan class="line" style="animation-delay:0.28s">n</tspan><tspan class="line" style="animation-delay:0.32s">t</tspan><tspan class="line" style="animation-delay:0.35s">a</tspan><tspan class="line" style="animation-delay:0.39s">c</tspan><tspan class="line" style="animation-delay:0.42s">t</tspan><tspan class="line" style="animation-delay:0.46s">s</tspan></text>
+<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.69s" class="line">discord: pancakeboyman_8</text>
+<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.83s" class="line">bio:     https://pancakeboyman.ru</text>
+<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.97s" class="line">github:  https://github.com/Pancakecreates</text>
+<text x="34" y="162" fill="#FFFFFF" font-size="15" font-weight="700" style="animation-delay:1.11s" class="line">$ <tspan class="cursor">█</tspan></text>
 </svg>

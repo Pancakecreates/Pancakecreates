@@ -1,46 +1,47 @@
-<svg width="620" height="724" viewBox="0 0 620 724" xmlns="http://www.w3.org/2000/svg">
+<svg width="620" height="742" viewBox="0 0 620 742" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .line { animation: show 0.12s forwards; }
+    .line { opacity: 0; animation: show 0.14s forwards; }
     .cursor { animation: blink 1s step-end infinite; }
-    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes show { to { opacity: 1; } }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
 
-<rect width="620" height="724" rx="22" fill="#050505"/>
-<rect x="1" y="1" width="618" height="722" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
+<rect width="620" height="742" rx="22" fill="#050505"/>
+<rect x="1" y="1" width="618" height="740" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
 <rect width="620" height="42" rx="22" fill="#101010"/>
 <circle cx="24" cy="21" r="6" fill="#555"/>
 <circle cx="46" cy="21" r="6" fill="#777"/>
 <circle cx="68" cy="21" r="6" fill="#999"/>
 <text x="92" y="27" fill="#9A9A9A" font-size="14">pancake@github: ~/stack</text>
-<text x="34" y="74" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:0.00s" class="line">$ tree stack/</text>
-<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.10s" class="line">stack/</text>
-<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.20s" class="line">├── languages/</text>
-<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.30s" class="line">│   ├── typescript</text>
-<text x="34" y="162" fill="#BDBDBD" font-size="15" style="animation-delay:0.40s" class="line">│   ├── javascript</text>
-<text x="34" y="184" fill="#BDBDBD" font-size="15" style="animation-delay:0.50s" class="line">│   ├── go</text>
-<text x="34" y="206" fill="#BDBDBD" font-size="15" style="animation-delay:0.60s" class="line">│   ├── python</text>
-<text x="34" y="228" fill="#BDBDBD" font-size="15" style="animation-delay:0.70s" class="line">│   └── luau</text>
-<text x="34" y="250" fill="#BDBDBD" font-size="15" style="animation-delay:0.80s" class="line">├── frontend/</text>
-<text x="34" y="272" fill="#BDBDBD" font-size="15" style="animation-delay:0.90s" class="line">│   ├── react</text>
-<text x="34" y="294" fill="#BDBDBD" font-size="15" style="animation-delay:1.00s" class="line">│   ├── next.js</text>
-<text x="34" y="316" fill="#BDBDBD" font-size="15" style="animation-delay:1.10s" class="line">│   ├── tailwind</text>
-<text x="34" y="338" fill="#BDBDBD" font-size="15" style="animation-delay:1.20s" class="line">│   └── html · css</text>
-<text x="34" y="360" fill="#BDBDBD" font-size="15" style="animation-delay:1.30s" class="line">├── backend/</text>
-<text x="34" y="382" fill="#BDBDBD" font-size="15" style="animation-delay:1.40s" class="line">│   ├── node.js</text>
+<text x="34" y="74" fill="#FFFFFF" font-size="15" font-weight="700"><tspan class="line" style="animation-delay:0.00s">$</tspan><tspan class="line" style="animation-delay:0.04s"> </tspan><tspan class="line" style="animation-delay:0.07s">t</tspan><tspan class="line" style="animation-delay:0.11s">r</tspan><tspan class="line" style="animation-delay:0.14s">e</tspan><tspan class="line" style="animation-delay:0.18s">e</tspan><tspan class="line" style="animation-delay:0.21s"> </tspan><tspan class="line" style="animation-delay:0.25s">s</tspan><tspan class="line" style="animation-delay:0.28s">t</tspan><tspan class="line" style="animation-delay:0.32s">a</tspan><tspan class="line" style="animation-delay:0.35s">c</tspan><tspan class="line" style="animation-delay:0.39s">k</tspan><tspan class="line" style="animation-delay:0.42s">/</tspan></text>
+<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.66s" class="line">stack/</text>
+<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.72s" class="line">├── languages/</text>
+<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.78s" class="line">│   ├── typescript</text>
+<text x="34" y="162" fill="#BDBDBD" font-size="15" style="animation-delay:0.84s" class="line">│   ├── javascript</text>
+<text x="34" y="184" fill="#BDBDBD" font-size="15" style="animation-delay:0.90s" class="line">│   ├── go</text>
+<text x="34" y="206" fill="#BDBDBD" font-size="15" style="animation-delay:0.96s" class="line">│   ├── python</text>
+<text x="34" y="228" fill="#BDBDBD" font-size="15" style="animation-delay:1.02s" class="line">│   └── luau</text>
+<text x="34" y="250" fill="#BDBDBD" font-size="15" style="animation-delay:1.08s" class="line">├── frontend/</text>
+<text x="34" y="272" fill="#BDBDBD" font-size="15" style="animation-delay:1.14s" class="line">│   ├── react</text>
+<text x="34" y="294" fill="#BDBDBD" font-size="15" style="animation-delay:1.20s" class="line">│   ├── next.js</text>
+<text x="34" y="316" fill="#BDBDBD" font-size="15" style="animation-delay:1.26s" class="line">│   ├── tailwind</text>
+<text x="34" y="338" fill="#BDBDBD" font-size="15" style="animation-delay:1.32s" class="line">│   └── html · css</text>
+<text x="34" y="360" fill="#BDBDBD" font-size="15" style="animation-delay:1.38s" class="line">├── backend/</text>
+<text x="34" y="382" fill="#BDBDBD" font-size="15" style="animation-delay:1.44s" class="line">│   ├── node.js</text>
 <text x="34" y="404" fill="#BDBDBD" font-size="15" style="animation-delay:1.50s" class="line">│   ├── express</text>
-<text x="34" y="426" fill="#BDBDBD" font-size="15" style="animation-delay:1.60s" class="line">│   ├── prisma · postgresql</text>
-<text x="34" y="448" fill="#BDBDBD" font-size="15" style="animation-delay:1.70s" class="line">│   └── redis</text>
-<text x="34" y="470" fill="#BDBDBD" font-size="15" style="animation-delay:1.80s" class="line">├── infra/</text>
-<text x="34" y="492" fill="#BDBDBD" font-size="15" style="animation-delay:1.90s" class="line">│   ├── kubernetes</text>
-<text x="34" y="514" fill="#BDBDBD" font-size="15" style="animation-delay:2.00s" class="line">│   ├── k3s</text>
-<text x="34" y="536" fill="#BDBDBD" font-size="15" style="animation-delay:2.10s" class="line">│   ├── helm</text>
-<text x="34" y="558" fill="#BDBDBD" font-size="15" style="animation-delay:2.20s" class="line">│   ├── docker</text>
-<text x="34" y="580" fill="#BDBDBD" font-size="15" style="animation-delay:2.30s" class="line">│   └── nginx · cloudflare-workers</text>
-<text x="34" y="602" fill="#BDBDBD" font-size="15" style="animation-delay:2.40s" class="line">└── ai/</text>
-<text x="34" y="624" fill="#BDBDBD" font-size="15" style="animation-delay:2.50s" class="line">    ├── openai · gemini</text>
-<text x="34" y="646" fill="#BDBDBD" font-size="15" style="animation-delay:2.60s" class="line">    ├── whisper</text>
-<text x="34" y="668" fill="#BDBDBD" font-size="15" style="animation-delay:2.70s" class="line">    └── qdrant</text>
+<text x="34" y="426" fill="#BDBDBD" font-size="15" style="animation-delay:1.56s" class="line">│   ├── prisma · postgresql</text>
+<text x="34" y="448" fill="#BDBDBD" font-size="15" style="animation-delay:1.62s" class="line">│   └── redis</text>
+<text x="34" y="470" fill="#BDBDBD" font-size="15" style="animation-delay:1.68s" class="line">├── infra/</text>
+<text x="34" y="492" fill="#BDBDBD" font-size="15" style="animation-delay:1.74s" class="line">│   ├── kubernetes</text>
+<text x="34" y="514" fill="#BDBDBD" font-size="15" style="animation-delay:1.80s" class="line">│   ├── k3s</text>
+<text x="34" y="536" fill="#BDBDBD" font-size="15" style="animation-delay:1.86s" class="line">│   ├── helm</text>
+<text x="34" y="558" fill="#BDBDBD" font-size="15" style="animation-delay:1.92s" class="line">│   ├── docker</text>
+<text x="34" y="580" fill="#BDBDBD" font-size="15" style="animation-delay:1.98s" class="line">│   └── nginx · cloudflare-workers</text>
+<text x="34" y="602" fill="#BDBDBD" font-size="15" style="animation-delay:2.04s" class="line">└── ai/</text>
+<text x="34" y="624" fill="#BDBDBD" font-size="15" style="animation-delay:2.10s" class="line">    ├── openai · gemini</text>
+<text x="34" y="646" fill="#BDBDBD" font-size="15" style="animation-delay:2.16s" class="line">    ├── whisper</text>
+<text x="34" y="668" fill="#BDBDBD" font-size="15" style="animation-delay:2.22s" class="line">    └── qdrant</text>
+<text x="34" y="690" fill="#FFFFFF" font-size="15" font-weight="700" style="animation-delay:2.28s" class="line">$ <tspan class="cursor">█</tspan></text>
 </svg>
