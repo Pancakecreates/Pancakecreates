@@ -15,7 +15,7 @@
 |_____|    
 ```
 
-_typescript · javascript · go · kubernetes · discord ecosystem_
+_fullstack engineer · typescript · javascript · go · kubernetes_
 
 </div>
 
@@ -44,7 +44,7 @@ metadata:
   name: Pancakeboyman_8
   username: Pancakecreates
   labels:
-    role: Backend Engineer
+    role: Fullstack Engineer
     stack: TypeScript / JavaScript / Go / Kubernetes
     status: shipping quietly
   annotations:
@@ -53,6 +53,7 @@ metadata:
       - Moscow RolePlay
 spec:
   languages: TypeScript · JavaScript · Go · Python
+  frontend: React · Vite · HTML · CSS
   infra: k3s · Helm · Docker · Redis · Nginx
   bots: Discord · Telegram · GitHub Actions
 ```
@@ -91,6 +92,11 @@ stack/
 │   ├── redis
 │   ├── sqlite
 │   └── nginx
+├── frontend/
+│   ├── react
+│   ├── vite
+│   ├── html
+│   └── css
 ├── infra/
 │   ├── kubernetes
 │   ├── k3s
