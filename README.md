@@ -1,118 +1,134 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:2b2b2b&height=220&section=header&text=Pancakeboyman_8&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Kubernetes%20%26%20Go%20%E2%80%A2%20Discord%20Ecosystem&descSize=17&descAlignY=57" />
+```
+ ____                       _        _                                       
+|  _ \ __ _ _ __   ___ __ _| | _____| |__   ___  _   _ _ __ ___   __ _ _ __  
+| |_) / _` | '_ \ / __/ _` | |/ / _ \ '_ \ / _ \| | | | '_ ` _ \ / _` | '_ \ 
+|  __/ (_| | | | | (_| (_| |   <  __/ |_) | (_) | |_| | | | | | | (_| | | | |
+|_|   \__,_|_| |_|\___\__,_|_|\_\___|_.__/ \___/ \__, |_| |_| |_|\__,_|_| |_|
+                                                 |___/                       
+      ___  
+     ( _ ) 
+     / _ \ 
+    | (_) |
+ ____\___/ 
+|_____|    
+```
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&duration=2500&pause=900&color=F5F5F5&center=true&vCenter=true&width=850&lines=Deploying+quietly.+Shipping+reliably.;Writing+Go.+Rolling+out+Helm+charts.;Owning+ER%3ALC+Russsia+%26+Moscow+RolePlay.;Backend+services+that+just+work." />
+_backend engineer · kubernetes · go · discord ecosystem_
 
 </div>
 
 ---
 
-## `whoami`
-
-```txt
-name        Pancakeboyman_8
-username    Pancakecreates
-role        Backend / Discord Ecosystem Developer
-focus       Kubernetes, Golang, Discord & Telegram bots
-status      shipping quietly
+```text
+┌─────────────────────────────────────────────────────────────────┐
+│ $ kubectl get pods -A -l owner=pancake                          │
+│ NAME                    READY   STATUS                          │
+│ api-service             1/1     Running                         │
+│ bot-gateway             1/1     Running                         │
+│ orchestrator            1/1     Running                         │
+│ redis-cluster           3/3     Running                         │
+│ ai-assistant            1/1     Running                         │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Current Build
+## profile.yaml
 
-```txt
-working on   private backend services & community platforms
-learning     Kubernetes, Go, distributed systems
-using        Go, TypeScript, Node.js, k3s
-style        monochrome, self-hosted, reliable
+```yaml
+apiVersion: v1
+kind: Profile
+metadata:
+  name: Pancakeboyman_8
+  username: Pancakecreates
+  labels:
+    role: Backend Engineer
+    stack: Kubernetes / Go / TypeScript
+    status: shipping quietly
+  annotations:
+    communities:
+      - ER:LC Россия
+      - Moscow RolePlay
+spec:
+  languages: Go · TypeScript · JavaScript · Python
+  infra: k3s · Helm · Docker · Redis · Nginx
+  bots: Discord · Telegram · GitHub Actions
 ```
 
 ---
 
-## Tech Stack
+## notes.txt
 
-<div align="center">
-
-### Languages
-
-<img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=white" />
-<img src="https://img.shields.io/badge/Go-111111?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Luau-111111?style=for-the-badge&logo=luau&logoColor=white" />
-
-<br/>
-
-### Backend & Runtime
-
-<img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/REST%20API-111111?style=for-the-badge&logo=swagger&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-111111?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-111111?style=for-the-badge&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/Nginx-111111?style=for-the-badge&logo=nginx&logoColor=white" />
-
-<br/>
-
-### Kubernetes & Cloud
-
-<img src="https://img.shields.io/badge/Kubernetes-111111?style=for-the-badge&logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/k3s-111111?style=for-the-badge&logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/Helm-111111?style=for-the-badge&logo=helm&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloudflare-111111?style=for-the-badge&logo=cloudflare&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloudflare%20Workers-111111?style=for-the-badge&logo=cloudflareworkers&logoColor=white" />
-
-<br/>
-
-### Bot & Community
-
-<img src="https://img.shields.io/badge/Discord-111111?style=for-the-badge&logo=discord&logoColor=white" />
-<img src="https://img.shields.io/badge/Telegram-111111?style=for-the-badge&logo=telegram&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub%20Actions-111111?style=for-the-badge&logo=githubactions&logoColor=white" />
-
-<br/>
-
-### Workflow
-
-<img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Vite-111111?style=for-the-badge&logo=vite&logoColor=white" />
-<img src="https://img.shields.io/badge/VS%20Code-111111?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-
-</div>
+```text
+┌─────────────────────────────────────────────────────────────────┐
+│ $ cat notes.txt                                                 │
+│ working on   private backend services                           │
+│ learning     kubernetes · go · systems                          │
+│ building     discord & telegram ecosystems                      │
+│ deploying    k3s · helm · docker                                │
+│ status       shipping quietly                                   │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Project Showcase
+## stack.txt
 
-<div align="center">
-
-### Communities I Own
-
-| | |
-|---|---|
-| **[ER:LC Россия](https://discord.gg/erlcrussia)** | The premier destination for ER:LC enthusiasts |
-| **[Moscow RolePlay](https://discord.gg/MoscowRus)** | High-quality immersive roleplay experience |
-
-<br/>
-
-### Selected Work
-
-| Project | Stack |
-|---------|-------|
-| [ClueControl](https://github.com/Pancakecreates/ClueControl) — department management & oversight system | TypeScript, Go |
-| [K3s-App](https://github.com/Pancakecreates/K3s-App) — universal Helm chart for k3s/Kubernetes | Helm, Go |
-| [K3s-Redis-App](https://github.com/Pancakecreates/K3s-Redis-App) — Redis 7 Helm chart with PVC | Helm, Redis |
-| [TelegramHelper](https://github.com/Pancakecreates/TelegramHelper) — AI assistant (userbot + control bot) | Python, Qdrant, Whisper |
-
-</div>
+```text
+$ tree stack/
+stack/
+├── languages/
+│   ├── go
+│   ├── typescript
+│   ├── javascript
+│   ├── python
+│   └── luau
+├── backend/
+│   ├── node.js
+│   ├── rest-api
+│   ├── redis
+│   ├── sqlite
+│   └── nginx
+├── infra/
+│   ├── kubernetes
+│   ├── k3s
+│   ├── helm
+│   ├── docker
+│   └── cloudflare-workers
+└── tools/
+    ├── git
+    ├── github-actions
+    └── vite · vscode
+```
 
 ---
 
-## GitHub Stats
+## workloads
+
+| manifest             | type                       | status      |
+|----------------------|----------------------------|-------------|
+| [ER:LC Россия](https://discord.gg/erlcrussia)      | discord community + site   | public      |
+| [Moscow RolePlay](https://discord.gg/MoscowRus)    | roleplay community         | public      |
+| [ClueControl](https://github.com/Pancakecreates/ClueControl)   | orchestration system       | Go backend  |
+| [K3s-App](https://github.com/Pancakecreates/K3s-App)           | universal helm chart       | open source |
+| [K3s-Redis-App](https://github.com/Pancakecreates/K3s-Redis-App) | redis-7 helm chart        | open source |
+| [TelegramHelper](https://github.com/Pancakecreates/TelegramHelper) | AI assistant bot        | open source |
+
+---
+
+## contacts
+
+```text
+discord: pancakeboyman_8
+blog:    https://pancakeboyman.ru
+github:  https://github.com/Pancakecreates
+```
+
+---
+
+## stats
 
 <div align="center">
 
@@ -131,25 +147,10 @@ style        monochrome, self-hosted, reliable
 
 ---
 
-## Mode
-
-```txt
-learning      always
-building      backend & community tools
-deployments   k3s & Kubernetes
-repos         mostly private
-commits       visible
-secrets       never pushed
-```
-
----
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=1000&color=DADADA&center=true&vCenter=true&width=650&lines=deploy+small.;improve+daily.;keep+shipping." />
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b2b2b,50:111111,100:000000&height=130&section=footer" />
+<pre>
+deploy small · improve daily · keep shipping.
+</pre>
 
 </div>
