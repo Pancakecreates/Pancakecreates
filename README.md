@@ -38,14 +38,17 @@ _fullstack engineer · typescript · javascript · go · kubernetes · ai_
 
 ## projects
 
-### [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)
-The largest Russian-speaking roleplay server in [ER:LC Roblox](https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County) — a fully immersive roleplay experience.
+> ### [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)
 
-### [ER:LC Россия](https://erlcrussia.com/)
-The community behind Moscow RolePlay and its ecosystem of projects — website, Discord bots and services.
+> The largest Russian-speaking roleplay server in [ER:LC Roblox](https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County) — a fully immersive roleplay experience.
 
-### [ClueControl](https://cluecontrolbot.xyz)
-A Discord bot that automates roleplay servers — moderation, commands and admin tooling.
+> ### [ER:LC Россия](https://erlcrussia.com/)
+
+> The community behind Moscow RolePlay and its ecosystem of projects — website, Discord bots and services.
+
+> ### [ClueControl](https://cluecontrolbot.xyz)
+
+> A Discord bot that automates roleplay servers — moderation, commands and admin tooling.
 
 ---
 
