@@ -109,12 +109,9 @@ stack/
 
 | manifest             | type                       | status      |
 |----------------------|----------------------------|-------------|
-| [ER:LC Россия](https://discord.gg/erlcrussia)      | discord community + site   | public      |
-| [Moscow RolePlay](https://discord.gg/MoscowRus)    | roleplay community         | public      |
-| [ClueControl](https://github.com/Pancakecreates/ClueControl)   | orchestration system       | Go backend  |
-| [K3s-App](https://github.com/Pancakecreates/K3s-App)           | universal helm chart       | open source |
-| [K3s-Redis-App](https://github.com/Pancakecreates/K3s-Redis-App) | redis-7 helm chart        | open source |
-| [TelegramHelper](https://github.com/Pancakecreates/TelegramHelper) | AI assistant bot        | open source |
+| [ClueControl](https://cluecontrolbot.xyz)           | orchestration system       | Go backend  |
+| [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)    | roleplay community         | public      |
+| [ER:LC Россия](https://erlcrussia.com/)             | discord community + site   | public      |
 
 ---
 
