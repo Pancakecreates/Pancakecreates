@@ -1,22 +1,15 @@
-<svg width="696" height="240" viewBox="0 0 696 240" xmlns="http://www.w3.org/2000/svg">
+<svg width="539" height="106" viewBox="0 0 539 106" xmlns="http://www.w3.org/2000/svg">
+
   <style>
     text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
-    .banner { fill: #EDEDED; font-size: 13px; font-weight: 700; }
+    .line { animation: show 0.12s forwards; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
   </style>
-  <rect width="696" height="240" rx="18" fill="#080808"/>
-  <rect x="1" y="1" width="694" height="238" rx="17" fill="none" stroke="#222222" stroke-width="1.5"/>
-  <text x="40" y="42" xml:space="preserve">
-    <tspan x="40" dy="0"> ____                       _        _                                       </tspan>
-    <tspan x="40" dy="15">|  _ \ __ _ _ __   ___ __ _| | _____| |__   ___  _   _ _ __ ___   __ _ _ __  </tspan>
-    <tspan x="40" dy="15">| |_) / _` | '_ \ / __/ _` | |/ / _ \ '_ \ / _ \| | | | '_ ` _ \ / _` | '_ \ </tspan>
-    <tspan x="40" dy="15">|  __/ (_| | | | | (_| (_| |   &lt;  __/ |_) | (_) | |_| | | | | | | (_| | | | |</tspan>
-    <tspan x="40" dy="15">|_|   \__,_|_| |_|\___\__,_|_|\_\___|_.__/ \___/ \__, |_| |_| |_|\__,_|_| |_|</tspan>
-    <tspan x="40" dy="15">                                                 |___/                       </tspan>
-    <tspan x="40" dy="15">      ___  </tspan>
-    <tspan x="40" dy="15">     ( _ ) </tspan>
-    <tspan x="40" dy="15">     / _ \ </tspan>
-    <tspan x="40" dy="15">    | (_) |</tspan>
-    <tspan x="40" dy="15"> ____\___/ </tspan>
-    <tspan x="40" dy="15">|_____|    </tspan>
-  </text>
+
+<rect width="539" height="106" rx="18" fill="#080808"/>
+<rect x="1" y="1" width="537" height="104" rx="17" fill="none" stroke="#222222" stroke-width="1.5"/>
+<text x="56" y="63" fill="#EDEDED" font-size="46" font-weight="700">Pancakeboyman_8</text>
+<line x1="56" y1="86" x2="483" y2="86" stroke="#333333" stroke-width="2"/>
 </svg>

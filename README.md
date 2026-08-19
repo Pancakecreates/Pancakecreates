@@ -18,62 +18,21 @@ _fullstack engineer · typescript · javascript · go · kubernetes · ai_
 
 ## profile.yaml
 
-```yaml
-apiVersion: v1
-kind: Profile
-metadata:
-  name: Pancakeboyman_8
-  username: Pancakecreates
-  labels:
-    role: Fullstack Engineer
-    stack: TypeScript / JavaScript / Go / Kubernetes
-    status: shipping quietly
-  annotations:
-    communities:
-      - ER:LC Россия
-      - Moscow RolePlay
-spec:
-  languages: TypeScript · JavaScript · Go · Python
-  frontend: React · Next.js · Tailwind
-  backend: Node.js · Express · Prisma · PostgreSQL
-  infra: k3s · Helm · Docker · Redis · Nginx
-  ai: OpenAI · Gemini · Whisper · Qdrant
-```
+<div align="center">
+
+<img src="./assets/profile.svg" alt="profile.yaml" />
+
+</div>
 
 ---
 
 ## stack.txt
 
-```text
-$ tree stack/
-stack/
-├── languages/
-│   ├── typescript
-│   ├── javascript
-│   ├── go
-│   ├── python
-│   └── luau
-├── frontend/
-│   ├── react
-│   ├── next.js
-│   ├── tailwind
-│   └── html · css
-├── backend/
-│   ├── node.js
-│   ├── express
-│   ├── prisma · postgresql
-│   └── redis
-├── infra/
-│   ├── kubernetes
-│   ├── k3s
-│   ├── helm
-│   ├── docker
-│   └── nginx · cloudflare-workers
-└── ai/
-    ├── openai · gemini
-    ├── whisper
-    └── qdrant
-```
+<div align="center">
+
+<img src="./assets/stack.svg" alt="stack" />
+
+</div>
 
 ---
 
@@ -92,11 +51,11 @@ A Discord bot that automates roleplay servers — moderation, commands and admin
 
 ## contacts
 
-```text
-discord: pancakeboyman_8
-bio:     https://pancakeboyman.ru
-github:  https://github.com/Pancakecreates
-```
+<div align="center">
+
+<img src="./assets/contacts.svg" alt="contacts" />
+
+</div>
 
 ---
 

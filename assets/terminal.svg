@@ -1,43 +1,52 @@
 <svg width="940" height="856" viewBox="0 0 940 856" xmlns="http://www.w3.org/2000/svg">
-  <rect class="bg" width="940" height="856" rx="22"/>
-  <rect class="border" x="1" y="1" width="938" height="854" rx="21"/>
-  <rect class="top" x="0" y="0" width="940" height="42" rx="22"/>
-  <circle cx="24" cy="21" r="6" fill="#555"/>
-  <circle cx="46" cy="21" r="6" fill="#777"/>
-  <circle cx="68" cy="21" r="6" fill="#999"/>
-  <text x="92" y="27" class="title">pancake@github: ~</text>
-  <text class="line cmd" style="animation-delay:0.00s" x="34" y="74">$ kubectl get pods -A -l owner=pancake</text>
-  <text class="line out" style="animation-delay:0.12s" x="34" y="96">NAMESPACE   NAME                 READY   STATUS</text>
-  <text class="line out" style="animation-delay:0.24s" x="34" y="118">erlc        api-service          1/1     Running</text>
-  <text class="line out" style="animation-delay:0.36s" x="34" y="140">erlc        discord-bot          1/1     Running</text>
-  <text class="line out" style="animation-delay:0.48s" x="34" y="162">mrp         bot-gateway          1/1     Running</text>
-  <text class="line out" style="animation-delay:0.60s" x="34" y="184">cluecontrol orchestrator         1/1     Running</text>
-  <text class="line out" style="animation-delay:0.72s" x="34" y="206">infra       redis-cluster        3/3     Running</text>
-  <text class="line out" style="animation-delay:0.84s" x="34" y="228">ai          assistant-worker     1/1     Running</text>
-  <text class="line out" style="animation-delay:0.96s" x="34" y="250"> </text>
-  <text class="line cmd" style="animation-delay:1.08s" x="34" y="272">$ cat notes.txt</text>
-  <text class="line out" style="animation-delay:1.20s" x="34" y="294">working on   private backend services</text>
-  <text class="line out" style="animation-delay:1.32s" x="34" y="316">learning     kubernetes · go · systems</text>
-  <text class="line out" style="animation-delay:1.44s" x="34" y="338">building     web apps · bots · ai</text>
-  <text class="line out" style="animation-delay:1.56s" x="34" y="360">deploying    k3s · helm · docker</text>
-  <text class="line out" style="animation-delay:1.68s" x="34" y="382">status       shipping quietly</text>
-  <text class="line out" style="animation-delay:1.80s" x="34" y="404"> </text>
-  <text class="line cmd" style="animation-delay:1.92s" x="34" y="426">$ go version</text>
-  <text class="line out" style="animation-delay:2.04s" x="34" y="448">go version go1.23 linux/amd64</text>
-  <text class="line out" style="animation-delay:2.16s" x="34" y="470"> </text>
-  <text class="line cmd" style="animation-delay:2.28s" x="34" y="492">$ npm run build</text>
-  <text class="line out" style="animation-delay:2.40s" x="34" y="514">bundling assets</text>
-  <text class="line ok" style="animation-delay:2.52s" x="34" y="536">build complete</text>
-  <text class="line out" style="animation-delay:2.64s" x="34" y="558"> </text>
-  <text class="line cmd" style="animation-delay:2.76s" x="34" y="580">$ git status</text>
-  <text class="line out" style="animation-delay:2.88s" x="34" y="602">On branch main</text>
-  <text class="line ok" style="animation-delay:3.00s" x="34" y="624">working tree clean</text>
-  <text class="line out" style="animation-delay:3.12s" x="34" y="646"> </text>
-  <text class="line cmd" style="animation-delay:3.24s" x="34" y="668">$ kubectl get nodes</text>
-  <text class="line out" style="animation-delay:3.36s" x="34" y="690">NAME           STATUS    ROLES</text>
-  <text class="line out" style="animation-delay:3.48s" x="34" y="712">pancake-k3s    Ready     control-plane</text>
-  <text class="line out" style="animation-delay:3.60s" x="34" y="734"> </text>
-  <text class="line cmd" style="animation-delay:3.72s" x="34" y="756">$ echo "deploy small · improve daily · keep shipping."</text>
-  <text class="line ok" style="animation-delay:3.84s" x="34" y="778">deploy small · improve daily · keep shipping.</text>
-  <text class="line cmd" style="animation-delay:3.96s" x="34" y="800">$ <tspan class="cursor">█</tspan></text>
+
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .line { animation: show 0.12s forwards; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+<rect width="940" height="856" rx="22" fill="#050505"/>
+<rect x="1" y="1" width="938" height="854" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
+<rect width="940" height="42" rx="22" fill="#101010"/>
+<circle cx="24" cy="21" r="6" fill="#555"/>
+<circle cx="46" cy="21" r="6" fill="#777"/>
+<circle cx="68" cy="21" r="6" fill="#999"/>
+<text x="92" y="27" fill="#9A9A9A" font-size="14">pancake@github: ~</text>
+<text x="34" y="74" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:0.00s" class="line">$ kubectl get pods -A -l owner=pancake</text>
+<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.14s" class="line">NAMESPACE   NAME                 READY   STATUS</text>
+<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.28s" class="line">erlc        api-service          1/1     Running</text>
+<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.42s" class="line">erlc        discord-bot          1/1     Running</text>
+<text x="34" y="162" fill="#BDBDBD" font-size="15" style="animation-delay:0.56s" class="line">mrp         bot-gateway          1/1     Running</text>
+<text x="34" y="184" fill="#BDBDBD" font-size="15" style="animation-delay:0.70s" class="line">cluecontrol orchestrator         1/1     Running</text>
+<text x="34" y="206" fill="#BDBDBD" font-size="15" style="animation-delay:0.84s" class="line">infra       redis-cluster        3/3     Running</text>
+<text x="34" y="228" fill="#BDBDBD" font-size="15" style="animation-delay:0.98s" class="line">ai          assistant-worker     1/1     Running</text>
+<text x="34" y="250" fill="#BDBDBD" font-size="15" style="animation-delay:1.12s" class="line"> </text>
+<text x="34" y="272" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:1.26s" class="line">$ cat notes.txt</text>
+<text x="34" y="294" fill="#BDBDBD" font-size="15" style="animation-delay:1.40s" class="line">working on   private backend services</text>
+<text x="34" y="316" fill="#BDBDBD" font-size="15" style="animation-delay:1.54s" class="line">learning     kubernetes · go · systems</text>
+<text x="34" y="338" fill="#BDBDBD" font-size="15" style="animation-delay:1.68s" class="line">building     web apps · bots · ai</text>
+<text x="34" y="360" fill="#BDBDBD" font-size="15" style="animation-delay:1.82s" class="line">deploying    k3s · helm · docker</text>
+<text x="34" y="382" fill="#BDBDBD" font-size="15" style="animation-delay:1.96s" class="line">status       shipping quietly</text>
+<text x="34" y="404" fill="#BDBDBD" font-size="15" style="animation-delay:2.10s" class="line"> </text>
+<text x="34" y="426" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:2.24s" class="line">$ go version</text>
+<text x="34" y="448" fill="#BDBDBD" font-size="15" style="animation-delay:2.38s" class="line">go version go1.23 linux/amd64</text>
+<text x="34" y="470" fill="#BDBDBD" font-size="15" style="animation-delay:2.52s" class="line"> </text>
+<text x="34" y="492" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:2.66s" class="line">$ npm run build</text>
+<text x="34" y="514" fill="#BDBDBD" font-size="15" style="animation-delay:2.80s" class="line">bundling assets</text>
+<text x="34" y="536" fill="#EDEDED" font-size="15" style="animation-delay:2.94s" class="line">build complete</text>
+<text x="34" y="558" fill="#BDBDBD" font-size="15" style="animation-delay:3.08s" class="line"> </text>
+<text x="34" y="580" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:3.22s" class="line">$ git status</text>
+<text x="34" y="602" fill="#BDBDBD" font-size="15" style="animation-delay:3.36s" class="line">On branch main</text>
+<text x="34" y="624" fill="#EDEDED" font-size="15" style="animation-delay:3.50s" class="line">working tree clean</text>
+<text x="34" y="646" fill="#BDBDBD" font-size="15" style="animation-delay:3.64s" class="line"> </text>
+<text x="34" y="668" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:3.78s" class="line">$ kubectl get nodes</text>
+<text x="34" y="690" fill="#BDBDBD" font-size="15" style="animation-delay:3.92s" class="line">NAME           STATUS    ROLES</text>
+<text x="34" y="712" fill="#BDBDBD" font-size="15" style="animation-delay:4.06s" class="line">pancake-k3s    Ready     control-plane</text>
+<text x="34" y="734" fill="#BDBDBD" font-size="15" style="animation-delay:4.20s" class="line"> </text>
+<text x="34" y="756" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:4.34s" class="line">$ echo "deploy small · improve daily · keep shipping."</text>
+<text x="34" y="778" fill="#EDEDED" font-size="15" style="animation-delay:4.48s" class="line">deploy small · improve daily · keep shipping.</text>
+<text x="34" y="800" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:4.62s" class="line">$ &lt;tspan class="cursor"&gt;█&lt;/tspan&gt;</text>
 </svg>

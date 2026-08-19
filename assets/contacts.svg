@@ -1,0 +1,23 @@
+<svg width="620" height="218" viewBox="0 0 620 218" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .line { animation: show 0.12s forwards; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+<rect width="620" height="218" rx="22" fill="#050505"/>
+<rect x="1" y="1" width="618" height="216" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
+<rect width="620" height="42" rx="22" fill="#101010"/>
+<circle cx="24" cy="21" r="6" fill="#555"/>
+<circle cx="46" cy="21" r="6" fill="#777"/>
+<circle cx="68" cy="21" r="6" fill="#999"/>
+<text x="92" y="27" fill="#9A9A9A" font-size="14">pancake@github: ~/contacts</text>
+<text x="34" y="74" fill="#FFFFFF" font-size="15" style="font-weight:700;animation-delay:0.00s" class="line">$ cat contacts</text>
+<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.14s" class="line">discord: pancakeboyman_8</text>
+<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.28s" class="line">bio:     https://pancakeboyman.ru</text>
+<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.42s" class="line">github:  https://github.com/Pancakecreates</text>
+<text x="34" y="162" fill="#FFFFFF" font-size="15" style="animation-delay:0.56s" class="line">$ <tspan class="cursor">█</tspan></text>
+</svg>

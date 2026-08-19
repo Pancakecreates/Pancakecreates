@@ -1,0 +1,86 @@
+<svg width="940" height="548" viewBox="0 0 940 548" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .line { animation: show 0.12s forwards; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+<rect width="940" height="548" rx="22" fill="#0D1117"/>
+<rect x="1" y="1" width="938" height="546" rx="21" fill="none" stroke="#30363D" stroke-width="1.5"/>
+<rect width="940" height="42" rx="22" fill="#161B22"/>
+<circle cx="24" cy="21" r="6" fill="#FF5F57"/>
+<circle cx="46" cy="21" r="6" fill="#FEBC2E"/>
+<circle cx="68" cy="21" r="6" fill="#28C840"/>
+<text x="92" y="27" fill="#8B949E" font-size="14">profile.yaml — Pancakecreates</text>
+<text x="16" y="74" fill="#484F58" font-size="15" text-anchor="end">1</text>
+<text x="58" y="74" fill="#79C0FF" font-size="15" style="animation-delay:0.00s" class="line">apiVersion</text>
+<text x="151" y="74" fill="#8B949E" font-size="15" style="animation-delay:0.00s" class="line">:</text>
+<text x="157" y="74" fill="#E6EDF3" font-size="15" style="animation-delay:0.00s" class="line">v1</text>
+<text x="16" y="96" fill="#484F58" font-size="15" text-anchor="end">2</text>
+<text x="58" y="96" fill="#79C0FF" font-size="15" style="animation-delay:0.14s" class="line">kind</text>
+<text x="97" y="96" fill="#8B949E" font-size="15" style="animation-delay:0.14s" class="line">:</text>
+<text x="103" y="96" fill="#E6EDF3" font-size="15" style="animation-delay:0.14s" class="line">Profile</text>
+<text x="16" y="118" fill="#484F58" font-size="15" text-anchor="end">3</text>
+<text x="58" y="118" fill="#79C0FF" font-size="15" style="animation-delay:0.28s" class="line">metadata:</text>
+<text x="16" y="140" fill="#484F58" font-size="15" text-anchor="end">4</text>
+<text x="74" y="140" fill="#79C0FF" font-size="15" style="animation-delay:0.42s" class="line">  name</text>
+<text x="131" y="140" fill="#8B949E" font-size="15" style="animation-delay:0.42s" class="line">:</text>
+<text x="137" y="140" fill="#E6EDF3" font-size="15" style="animation-delay:0.42s" class="line">Pancakeboyman_8</text>
+<text x="16" y="162" fill="#484F58" font-size="15" text-anchor="end">5</text>
+<text x="74" y="162" fill="#79C0FF" font-size="15" style="animation-delay:0.56s" class="line">  username</text>
+<text x="167" y="162" fill="#8B949E" font-size="15" style="animation-delay:0.56s" class="line">:</text>
+<text x="173" y="162" fill="#E6EDF3" font-size="15" style="animation-delay:0.56s" class="line">Pancakecreates</text>
+<text x="16" y="184" fill="#484F58" font-size="15" text-anchor="end">6</text>
+<text x="74" y="184" fill="#79C0FF" font-size="15" style="animation-delay:0.70s" class="line">  labels:</text>
+<text x="16" y="206" fill="#484F58" font-size="15" text-anchor="end">7</text>
+<text x="90" y="206" fill="#79C0FF" font-size="15" style="animation-delay:0.84s" class="line">    role</text>
+<text x="165" y="206" fill="#8B949E" font-size="15" style="animation-delay:0.84s" class="line">:</text>
+<text x="171" y="206" fill="#E6EDF3" font-size="15" style="animation-delay:0.84s" class="line">Fullstack Engineer</text>
+<text x="16" y="228" fill="#484F58" font-size="15" text-anchor="end">8</text>
+<text x="90" y="228" fill="#79C0FF" font-size="15" style="animation-delay:0.98s" class="line">    stack</text>
+<text x="174" y="228" fill="#8B949E" font-size="15" style="animation-delay:0.98s" class="line">:</text>
+<text x="180" y="228" fill="#E6EDF3" font-size="15" style="animation-delay:0.98s" class="line">TypeScript / JavaScript / Go / Kubernetes</text>
+<text x="16" y="250" fill="#484F58" font-size="15" text-anchor="end">9</text>
+<text x="90" y="250" fill="#79C0FF" font-size="15" style="animation-delay:1.12s" class="line">    status</text>
+<text x="183" y="250" fill="#8B949E" font-size="15" style="animation-delay:1.12s" class="line">:</text>
+<text x="189" y="250" fill="#E6EDF3" font-size="15" style="animation-delay:1.12s" class="line">shipping quietly</text>
+<text x="16" y="272" fill="#484F58" font-size="15" text-anchor="end">10</text>
+<text x="74" y="272" fill="#79C0FF" font-size="15" style="animation-delay:1.26s" class="line">  annotations:</text>
+<text x="16" y="294" fill="#484F58" font-size="15" text-anchor="end">11</text>
+<text x="90" y="294" fill="#79C0FF" font-size="15" style="animation-delay:1.40s" class="line">    communities:</text>
+<text x="16" y="316" fill="#484F58" font-size="15" text-anchor="end">12</text>
+<text x="106" y="316" fill="#79C0FF" font-size="15" style="animation-delay:1.54s" class="line">      - </text>
+<text x="181" y="316" fill="#8B949E" font-size="15" style="animation-delay:1.54s" class="line">:</text>
+<text x="187" y="316" fill="#E6EDF3" font-size="15" style="animation-delay:1.54s" class="line">ER:LC Россия</text>
+<text x="16" y="338" fill="#484F58" font-size="15" text-anchor="end">13</text>
+<text x="106" y="338" fill="#79C0FF" font-size="15" style="animation-delay:1.68s" class="line">      - </text>
+<text x="181" y="338" fill="#8B949E" font-size="15" style="animation-delay:1.68s" class="line">:</text>
+<text x="187" y="338" fill="#E6EDF3" font-size="15" style="animation-delay:1.68s" class="line">Moscow RolePlay</text>
+<text x="16" y="360" fill="#484F58" font-size="15" text-anchor="end">14</text>
+<text x="58" y="360" fill="#79C0FF" font-size="15" style="animation-delay:1.82s" class="line">spec:</text>
+<text x="16" y="382" fill="#484F58" font-size="15" text-anchor="end">15</text>
+<text x="74" y="382" fill="#79C0FF" font-size="15" style="animation-delay:1.96s" class="line">  languages</text>
+<text x="176" y="382" fill="#8B949E" font-size="15" style="animation-delay:1.96s" class="line">:</text>
+<text x="182" y="382" fill="#E6EDF3" font-size="15" style="animation-delay:1.96s" class="line">TypeScript · JavaScript · Go · Python</text>
+<text x="16" y="404" fill="#484F58" font-size="15" text-anchor="end">16</text>
+<text x="74" y="404" fill="#79C0FF" font-size="15" style="animation-delay:2.10s" class="line">  frontend</text>
+<text x="167" y="404" fill="#8B949E" font-size="15" style="animation-delay:2.10s" class="line">:</text>
+<text x="173" y="404" fill="#E6EDF3" font-size="15" style="animation-delay:2.10s" class="line">React · Next.js · Tailwind</text>
+<text x="16" y="426" fill="#484F58" font-size="15" text-anchor="end">17</text>
+<text x="74" y="426" fill="#79C0FF" font-size="15" style="animation-delay:2.24s" class="line">  backend</text>
+<text x="158" y="426" fill="#8B949E" font-size="15" style="animation-delay:2.24s" class="line">:</text>
+<text x="164" y="426" fill="#E6EDF3" font-size="15" style="animation-delay:2.24s" class="line">Node.js · Express · Prisma · PostgreSQL</text>
+<text x="16" y="448" fill="#484F58" font-size="15" text-anchor="end">18</text>
+<text x="74" y="448" fill="#79C0FF" font-size="15" style="animation-delay:2.38s" class="line">  infra</text>
+<text x="140" y="448" fill="#8B949E" font-size="15" style="animation-delay:2.38s" class="line">:</text>
+<text x="146" y="448" fill="#E6EDF3" font-size="15" style="animation-delay:2.38s" class="line">k3s · Helm · Docker · Redis · Nginx</text>
+<text x="16" y="470" fill="#484F58" font-size="15" text-anchor="end">19</text>
+<text x="74" y="470" fill="#79C0FF" font-size="15" style="animation-delay:2.52s" class="line">  ai</text>
+<text x="113" y="470" fill="#8B949E" font-size="15" style="animation-delay:2.52s" class="line">:</text>
+<text x="119" y="470" fill="#E6EDF3" font-size="15" style="animation-delay:2.52s" class="line">OpenAI · Gemini · Whisper · Qdrant</text>
+<text x="16" y="492" fill="#484F58" font-size="15" text-anchor="end">20</text>
+<text x="58" y="492" fill="#FFFFFF" font-size="15" style="animation-delay:2.66s" class="line"> <tspan class="cursor">█</tspan></text>
+</svg>
