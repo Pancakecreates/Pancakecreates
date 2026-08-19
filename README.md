@@ -15,7 +15,7 @@
 |_____|    
 ```
 
-_fullstack engineer · typescript · javascript · go · kubernetes_
+_fullstack engineer · typescript · javascript · go · kubernetes · ai_
 
 </div>
 
@@ -53,9 +53,10 @@ metadata:
       - Moscow RolePlay
 spec:
   languages: TypeScript · JavaScript · Go · Python
-  frontend: React · Vite · HTML · CSS
+  frontend: React · Next.js · Tailwind
+  backend: Node.js · Express · Prisma · PostgreSQL
   infra: k3s · Helm · Docker · Redis · Nginx
-  bots: Discord · Telegram · GitHub Actions
+  ai: OpenAI · Gemini · Whisper · Qdrant
 ```
 
 ---
@@ -67,7 +68,7 @@ spec:
 │ $ cat notes.txt                                                 │
 │ working on   private backend services                           │
 │ learning     kubernetes · go · systems                          │
-│ building     discord & telegram ecosystems                      │
+│ building     web apps · bots · ai                                │
 │ deploying    k3s · helm · docker                                │
 │ status       shipping quietly                                   │
 └─────────────────────────────────────────────────────────────────┘
@@ -81,32 +82,31 @@ spec:
 $ tree stack/
 stack/
 ├── languages/
-│   ├── go
 │   ├── typescript
 │   ├── javascript
+│   ├── go
 │   ├── python
 │   └── luau
-├── backend/
-│   ├── node.js
-│   ├── rest-api
-│   ├── redis
-│   ├── sqlite
-│   └── nginx
 ├── frontend/
 │   ├── react
-│   ├── vite
-│   ├── html
-│   └── css
+│   ├── next.js
+│   ├── tailwind
+│   └── html · css
+├── backend/
+│   ├── node.js
+│   ├── express
+│   ├── prisma · postgresql
+│   └── redis
 ├── infra/
 │   ├── kubernetes
 │   ├── k3s
 │   ├── helm
 │   ├── docker
-│   └── cloudflare-workers
-└── tools/
-    ├── git
-    ├── github-actions
-    └── vite · vscode
+│   └── nginx · cloudflare-workers
+└── ai/
+    ├── openai · gemini
+    ├── whisper
+    └── qdrant
 ```
 
 ---
