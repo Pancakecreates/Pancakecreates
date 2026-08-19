@@ -1,23 +1,27 @@
-<svg width="620" height="214" viewBox="0 0 620 214" xmlns="http://www.w3.org/2000/svg">
+<svg width="620" height="236" viewBox="0 0 620 236" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
     .line { opacity: 0; animation: show 0.14s forwards; }
-    .cursor { animation: blink 1s step-end infinite; }
+    .cursor { animation: blink 0.9s step-end infinite; }
     @keyframes show { to { opacity: 1; } }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
 
-<rect width="620" height="214" rx="22" fill="#050505"/>
-<rect x="1" y="1" width="618" height="212" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
+<rect width="620" height="236" rx="22" fill="#050505"/>
+<rect x="1" y="1" width="618" height="234" rx="21" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
 <rect width="620" height="42" rx="22" fill="#101010"/>
 <circle cx="24" cy="21" r="6" fill="#555"/>
 <circle cx="46" cy="21" r="6" fill="#777"/>
 <circle cx="68" cy="21" r="6" fill="#999"/>
 <text x="92" y="27" fill="#9A9A9A" font-size="14">pancake@github: ~/contacts</text>
-<text x="34" y="74" fill="#FFFFFF" font-size="15" font-weight="700"><tspan class="line" style="animation-delay:0.00s">$</tspan><tspan class="line" style="animation-delay:0.04s"> </tspan><tspan class="line" style="animation-delay:0.07s">c</tspan><tspan class="line" style="animation-delay:0.11s">a</tspan><tspan class="line" style="animation-delay:0.14s">t</tspan><tspan class="line" style="animation-delay:0.18s"> </tspan><tspan class="line" style="animation-delay:0.21s">c</tspan><tspan class="line" style="animation-delay:0.25s">o</tspan><tspan class="line" style="animation-delay:0.28s">n</tspan><tspan class="line" style="animation-delay:0.32s">t</tspan><tspan class="line" style="animation-delay:0.35s">a</tspan><tspan class="line" style="animation-delay:0.39s">c</tspan><tspan class="line" style="animation-delay:0.42s">t</tspan><tspan class="line" style="animation-delay:0.46s">s</tspan></text>
-<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:0.69s" class="line">discord: pancakeboyman_8</text>
-<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:0.83s" class="line">bio:     https://pancakeboyman.ru</text>
-<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:0.97s" class="line">github:  https://github.com/Pancakecreates</text>
-<text x="34" y="162" fill="#FFFFFF" font-size="15" font-weight="700" style="animation-delay:1.11s" class="line">$ <tspan class="cursor">█</tspan></text>
+<text x="34" y="74" fill="#FFFFFF" font-size="15" font-weight="700"><tspan class="line" style="animation-delay:0.70s">$</tspan><tspan class="line" style="animation-delay:0.73s"> </tspan><tspan class="line" style="animation-delay:0.77s">c</tspan><tspan class="line" style="animation-delay:0.80s">a</tspan><tspan class="line" style="animation-delay:0.84s">t</tspan><tspan class="line" style="animation-delay:0.88s"> </tspan><tspan class="line" style="animation-delay:0.91s">c</tspan><tspan class="line" style="animation-delay:0.94s">o</tspan><tspan class="line" style="animation-delay:0.98s">n</tspan><tspan class="line" style="animation-delay:1.02s">t</tspan><tspan class="line" style="animation-delay:1.05s">a</tspan><tspan class="line" style="animation-delay:1.08s">c</tspan><tspan class="line" style="animation-delay:1.12s">t</tspan><tspan class="line" style="animation-delay:1.16s">s</tspan></text>
+<text x="34" y="96" fill="#BDBDBD" font-size="15" style="animation-delay:1.37s" class="line">discord: pancakeboyman_8</text>
+<text x="34" y="118" fill="#BDBDBD" font-size="15" style="animation-delay:1.51s" class="line">bio:     https://pancakeboyman.ru</text>
+<text x="34" y="140" fill="#BDBDBD" font-size="15" style="animation-delay:1.65s" class="line">github:  https://github.com/Pancakecreates</text>
+<text x="34" y="162" fill="#FFFFFF" font-size="15" font-weight="700"><tspan class="line" style="animation-delay:1.89s">$</tspan><tspan class="line" style="animation-delay:1.93s"> </tspan></text>
+<rect class="cursor" x="34" y="74" width="9" height="17" rx="1" fill="#FFFFFF">
+  <animate attributeName="x" values="34 43 52 61 70 79 88 97 106 115 124 133 142 151 160 43 52 52" keyTimes="0.000 0.277 0.291 0.305 0.319 0.333 0.347 0.360 0.374 0.388 0.402 0.416 0.430 0.444 0.457 0.749 0.762 1.000" dur="2.53s" calcMode="discrete" fill="freeze"/>
+  <animate attributeName="y" values="74 74 74 74 74 74 74 74 74 74 74 74 74 74 74 162 162 162" keyTimes="0.000 0.277 0.291 0.305 0.319 0.333 0.347 0.360 0.374 0.388 0.402 0.416 0.430 0.444 0.457 0.749 0.762 1.000" dur="2.53s" calcMode="discrete" fill="freeze"/>
+</rect>
 </svg>
