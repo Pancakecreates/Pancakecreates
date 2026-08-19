@@ -114,13 +114,13 @@ stack/
 ## projects
 
 ### [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)
-Самый крупный русскоязычный сервер в игре [ER:LC Roblox](https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County) — полноценный иммерсивный ролевой опыт.
+The largest Russian-speaking roleplay server in [ER:LC Roblox](https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County) — a fully immersive roleplay experience.
 
 ### [ER:LC Россия](https://erlcrussia.com/)
-Сообщество, которому принадлежат Moscow RolePlay и другие проекты экосистемы.
+The community behind Moscow RolePlay and its ecosystem of projects — website, Discord bots and services.
 
 ### [ClueControl](https://cluecontrolbot.xyz)
-Крутой бот для Discord — автоматизация и инструменты для ролевых серверов.
+A Discord bot that automates roleplay servers — moderation, commands and admin tooling.
 
 ---
 
@@ -128,7 +128,7 @@ stack/
 
 ```text
 discord: pancakeboyman_8
-blog:    https://pancakeboyman.ru
+bio:     https://pancakeboyman.ru
 github:  https://github.com/Pancakecreates
 ```
 
