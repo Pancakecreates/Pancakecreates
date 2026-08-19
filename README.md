@@ -105,13 +105,16 @@ stack/
 
 ---
 
-## workloads
+## projects
 
-| manifest             | type                       | status      |
-|----------------------|----------------------------|-------------|
-| [ClueControl](https://cluecontrolbot.xyz)           | orchestration system       | Go backend  |
-| [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)    | roleplay community         | public      |
-| [ER:LC Россия](https://erlcrussia.com/)             | discord community + site   | public      |
+### [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)
+Самый крупный русскоязычный сервер в игре [ER:LC Roblox](https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County) — полноценный иммерсивный ролевой опыт.
+
+### [ER:LC Россия](https://erlcrussia.com/)
+Сообщество, которому принадлежат Moscow RolePlay и другие проекты экосистемы.
+
+### [ClueControl](https://cluecontrolbot.xyz)
+Крутой бот для Discord — автоматизация и инструменты для ролевых серверов.
 
 ---
 
