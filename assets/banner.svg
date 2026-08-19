@@ -1,0 +1,22 @@
+<svg width="696" height="240" viewBox="0 0 696 240" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .banner { fill: #EDEDED; font-size: 13px; font-weight: 700; }
+  </style>
+  <rect width="696" height="240" rx="18" fill="#080808"/>
+  <rect x="1" y="1" width="694" height="238" rx="17" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <text x="40" y="42" xml:space="preserve">
+    <tspan x="40" dy="0"> ____                       _        _                                       </tspan>
+    <tspan x="40" dy="15">|  _ \ __ _ _ __   ___ __ _| | _____| |__   ___  _   _ _ __ ___   __ _ _ __  </tspan>
+    <tspan x="40" dy="15">| |_) / _` | '_ \ / __/ _` | |/ / _ \ '_ \ / _ \| | | | '_ ` _ \ / _` | '_ \ </tspan>
+    <tspan x="40" dy="15">|  __/ (_| | | | | (_| (_| |   &lt;  __/ |_) | (_) | |_| | | | | | | (_| | | | |</tspan>
+    <tspan x="40" dy="15">|_|   \__,_|_| |_|\___\__,_|_|\_\___|_.__/ \___/ \__, |_| |_| |_|\__,_|_| |_|</tspan>
+    <tspan x="40" dy="15">                                                 |___/                       </tspan>
+    <tspan x="40" dy="15">      ___  </tspan>
+    <tspan x="40" dy="15">     ( _ ) </tspan>
+    <tspan x="40" dy="15">     / _ \ </tspan>
+    <tspan x="40" dy="15">    | (_) |</tspan>
+    <tspan x="40" dy="15"> ____\___/ </tspan>
+    <tspan x="40" dy="15">|_____|    </tspan>
+  </text>
+</svg>

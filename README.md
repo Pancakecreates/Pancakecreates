@@ -1,19 +1,6 @@
 <div align="center">
 
-```
- ____                       _        _                                       
-|  _ \ __ _ _ __   ___ __ _| | _____| |__   ___  _   _ _ __ ___   __ _ _ __  
-| |_) / _` | '_ \ / __/ _` | |/ / _ \ '_ \ / _ \| | | | '_ ` _ \ / _` | '_ \ 
-|  __/ (_| | | | | (_| (_| |   <  __/ |_) | (_) | |_| | | | | | | (_| | | | |
-|_|   \__,_|_| |_|\___\__,_|_|\_\___|_.__/ \___/ \__, |_| |_| |_|\__,_|_| |_|
-                                                 |___/                       
-      ___  
-     ( _ ) 
-     / _ \ 
-    | (_) |
- ____\___/ 
-|_____|    
-```
+<img src="./assets/banner.svg" alt="Pancakeboyman_8" />
 
 _fullstack engineer · typescript · javascript · go · kubernetes · ai_
 
@@ -21,17 +8,11 @@ _fullstack engineer · typescript · javascript · go · kubernetes · ai_
 
 ---
 
-```text
-┌─────────────────────────────────────────────────────────────────┐
-│ $ kubectl get pods -A -l owner=pancake                          │
-│ NAME                    READY   STATUS                          │
-│ api-service             1/1     Running                         │
-│ bot-gateway             1/1     Running                         │
-│ orchestrator            1/1     Running                         │
-│ redis-cluster           3/3     Running                         │
-│ ai-assistant            1/1     Running                         │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="./assets/terminal.svg" alt="terminal" />
+
+</div>
 
 ---
 
@@ -57,21 +38,6 @@ spec:
   backend: Node.js · Express · Prisma · PostgreSQL
   infra: k3s · Helm · Docker · Redis · Nginx
   ai: OpenAI · Gemini · Whisper · Qdrant
-```
-
----
-
-## notes.txt
-
-```text
-┌─────────────────────────────────────────────────────────────────┐
-│ $ cat notes.txt                                                 │
-│ working on   private backend services                           │
-│ learning     kubernetes · go · systems                          │
-│ building     web apps · bots · ai                                │
-│ deploying    k3s · helm · docker                                │
-│ status       shipping quietly                                   │
-└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
