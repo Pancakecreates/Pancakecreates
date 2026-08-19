@@ -15,7 +15,7 @@
 |_____|    
 ```
 
-_backend engineer · kubernetes · go · discord ecosystem_
+_typescript · javascript · go · kubernetes · discord ecosystem_
 
 </div>
 
@@ -45,14 +45,14 @@ metadata:
   username: Pancakecreates
   labels:
     role: Backend Engineer
-    stack: Kubernetes / Go / TypeScript
+    stack: TypeScript / JavaScript / Go / Kubernetes
     status: shipping quietly
   annotations:
     communities:
       - ER:LC Россия
       - Moscow RolePlay
 spec:
-  languages: Go · TypeScript · JavaScript · Python
+  languages: TypeScript · JavaScript · Go · Python
   infra: k3s · Helm · Docker · Redis · Nginx
   bots: Discord · Telegram · GitHub Actions
 ```
