@@ -44,7 +44,7 @@ _full-stack & software developer · typescript · javascript · go · kubernetes
 > ### [Moscow RolePlay](https://erlcrussia.com/moscowroleplay)
 > The largest Russian-speaking roleplay server in [ER:LC Roblox](https://www.roblox.com/games/2534724415/Emergency-Response-Liberty-County) — a fully immersive roleplay experience.
 
-> ### [Cevexa](https://cluecontrolbot.xyz)
+> ### [Cevexa](https://cevexa.xyz)
 > A Discord bot that automates roleplay servers — moderation, commands and admin tooling.
 
 ---
