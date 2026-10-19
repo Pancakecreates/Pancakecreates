@@ -23,7 +23,7 @@
 <text x="34" y="118" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:2.67s" class="line">erlc        api-service          1/1     Running</text>
 <text x="34" y="140" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:2.81s" class="line">erlc        discord-bot          1/1     Running</text>
 <text x="34" y="162" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:2.95s" class="line">mrp         bot-gateway          1/1     Running</text>
-<text x="34" y="184" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:3.09s" class="line">cluecontrol orchestrator         1/1     Running</text>
+<text x="34" y="184" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:3.09s" class="line">cevexa      orchestrator         1/1     Running</text>
 <text x="34" y="206" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:3.23s" class="line">infra       redis-cluster        3/3     Running</text>
 <text x="34" y="228" xml:space="preserve" fill="#BDBDBD" font-size="15" style="animation-delay:3.37s" class="line">ai          assistant-worker     1/1     Running</text>
 <text x="34" y="250" xml:space="preserve" fill="#FFFFFF" font-size="15" font-weight="700" style="animation-delay:3.61s" class="line">$ </text>
